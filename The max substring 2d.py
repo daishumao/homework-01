@@ -2,8 +2,8 @@
 '''
 2013-9-17  XTH
 '''
-n1 = raw_input("please input a number")
-n2 = raw_input("please input another number")
+n1 = raw_input("please input the row number of array")           #the row number of array
+n2 = raw_input("please input the line number of array")     #the line number of array
 f = open(n1 + "," + n2 + ".txt","r")
 num=[[]]*int(n1)
 for i in range(0,int(n1)):
@@ -38,7 +38,6 @@ def max_2d(num,n1,n2):
 					x[1]=j
 					x2=x[0]
 					y2=y[0]
-
 			now_sum = 0
 		now_sum=0
 		line = [0]*n2
